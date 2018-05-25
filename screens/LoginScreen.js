@@ -23,7 +23,6 @@ class LoginScreen extends React.Component {
   _handlePressAsync = async () => {
     let redirectUrl = AuthSession.getRedirectUrl();
     let scopes = 'user-read-private user-read-email';
-    console.log(redirectUrl);
     let result = await AuthSession.startAsync({
       authUrl:
         `https://accounts.spotify.com/authorize` +
