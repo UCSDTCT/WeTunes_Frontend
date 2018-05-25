@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "WeTunes_Frontend2",
-    "description": "This project is really great.",
-    "slug": "WeTunes_Frontend2",
+    "name": "WeTunes",
+    "description": "Vote on what music to play from Spotify!",
+    "slug": "WeTunes",
     "privacy": "public",
     "sdkVersion": "27.0.0",
     "platforms": ["ios", "android"],
